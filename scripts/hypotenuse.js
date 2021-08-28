@@ -21,6 +21,6 @@ function calculateHypotenuse() {
     outputEl.innerText = "The length of hypotenuse is " + lengthOfHypotenuse;
   }
 
-}
+} 
 
 calculateBtn.addEventListener("click", calculateHypotenuse);
