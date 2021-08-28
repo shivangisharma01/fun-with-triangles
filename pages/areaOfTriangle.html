@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Area of a Triangle</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Fun with Triangles</h1>
+    <nav>
+      <span><a href="../index.html">Quiz</a></span> | <span><a href="../pages/angleOfTriangle.html">Is
+          Triangle?</a></span> |
+      <span><a href="../pages/hypotenuse.html">Hypotenuse</a></span> |
+      <span class="active"> <a class="active" href="../pages/areaOfTriangle.html">Area of Triangle</a></span>
+    </nav>
+  </header>
+  <main class="main">
+    <h1>Area of a Triangle</h1>
+    <hr />
+    <form id="calculate-area">
+      <label class="input-label" for="first-side">
+        <p>Side 1</p>
+        <input class="input-text" required type="number" id="first-side" placeholder="Enter Side-1 of Triangle" />
+      </label>
+      <label class="input-label" for="second-side">
+        <p>side 2</p>
+        <input class="input-text" required type="number" id="second-side" placeholder="Enter Side-2 of Triangle" />
+      </label>
+      <label class="input-label" for="third-side">
+        <p>Side 3</p>
+        <input class="input-text" required type="number" id="third-side" placeholder="Enter Side-3 of Triangle" />
+      </label>
+      <button class="btn-check" type="submit">Calculate</button>
+      <hr />
+    </form>
+    <p class="output calculate-area-output" id="output"></p>
+
+  </main>
+
+  <div class="footer">
+    <h3>Social Media Presence</h3>
+    <p>&COPY;Made with ❤️ by <a target="_blank" class="portfolio-link" href="https://shivangi-portfolio.netlify.app">Shivangi Sharma</a></p>
+    <ul>
+      <li class="list-item-inline">
+        <a class="links " href="https://github.com/Shivangisharma01" target="blank"><img class="socialIcon"
+            src="../images/github.gif"> </i></a>
+
+      </li>
+      <li class="list-item-inline">
+        <a class="links" href="https://twitter.com/Shivangi_1001" target="blank"><img class="socialIcon"
+            src="../images/twitter.gif"></i></a>
+      </li>
+      <li class="list-item-inline">
+        <a class="links" href="https://www.linkedin.com/in/shivangi-sharma-01" target="_blank">
+          <img class="socialIcon" src="../images/linkedin.gif"></i></a>
+      </li>
+
+    </ul>
+  </div>
+  <script src="../scripts/areaOfTriangle.js"></script>
+</body>
+
+</html>
